@@ -1,7 +1,11 @@
-class Operation(object):
+from abc import ABCMeta, abstractmethod
+
+
+class Operation(metaclass=ABCMeta):
     number_a = 0
     number_b = 0
 
+    @abstractmethod
     def get_result(self):
         result = 0
         return result
