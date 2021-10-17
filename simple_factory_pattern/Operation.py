@@ -7,8 +7,7 @@ class Operation(metaclass=ABCMeta):
 
     @abstractmethod
     def get_result(self):
-        result = 0
-        return result
+        pass
 
 
 class OperationAdd(Operation):
