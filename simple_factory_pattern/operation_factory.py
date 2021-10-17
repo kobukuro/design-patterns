@@ -1,4 +1,4 @@
-from operation import *
+from simple_factory_pattern.operation import *
 
 
 # 根據傳入的符號，回傳對應的Operation instance

@@ -1,4 +1,4 @@
-from operation_factory import *
+from simple_factory_pattern.operation_factory import *
 
 if __name__ == '__main__':
     operation = create_operate(operate='+')
